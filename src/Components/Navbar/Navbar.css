@@ -63,7 +63,13 @@ nav{
     width: 90px;
   }
 
-  .nav-middle .search-box input {
+  .nav-middle .search-bar input {
     width: 100;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-middle .search-bar input {
+    width: 60%;
   }
 }
